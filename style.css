@@ -11,16 +11,16 @@ body{
 
 }
 .container {
-    display: grid;
+    display: flex;
     grid-template-columns: auto;
     grid-gap: 20px;
     place-items: center;
     height: 50%;
-    margin: auto;
-    padding: 50px;
+    margin:auto ;
+    padding: 150px;
 }
 .box{
-    background: white;
+    background: light grey;
     text-align: center;
     box-shadow: -1px 0 55px 5px;
 }
